@@ -1,0 +1,5 @@
+Things to do:
+ - Hook up basic UI. 
+ - Read game enigne architecture. 
+ - Test map edit with Luke.
+ - Take images for posterity. 
