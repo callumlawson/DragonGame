@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Gamelogic
+namespace Assets.Gamelogic.UI
 {
     public class ColorSelectUI : MonoBehaviour
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-namespace Assets.Gamelogic
+namespace Assets.Gamelogic.Map
 {
     [NetworkSettings(channel = 2)]
     public class HexGrid : NetworkBehaviour

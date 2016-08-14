@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Gamelogic
+namespace Assets.Gamelogic.Map
 {
     [System.Serializable]
     public struct HexCoordinates

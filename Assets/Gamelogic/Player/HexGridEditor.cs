@@ -1,9 +1,11 @@
-﻿using JetBrains.Annotations;
+﻿using Assets.Gamelogic.Map;
+using Assets.Gamelogic.UI;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Networking;
 
-namespace Assets.Gamelogic
+namespace Assets.Gamelogic.Player
 {
     /// <summary>
     /// Player authoritative controller to edit the hexgrid. 
@@ -15,23 +17,28 @@ namespace Assets.Gamelogic
 
         #region Clientside
         [UsedImplicitly]
-        public void Awake ()
+        public override void OnStartLocalPlayer()
         {
-            UIManager.Instance.ColorSelectUI.OnColorIndexUpdated += CmdSelectColor;
+            if (isLocalPlayer)
+            {
+                //Cannot use method groups for commands!
+                UIManager.Instance.ColorSelectUI.OnColorIndexUpdated += index => CmdSelectColor(index);
+            }
         }
 
         [UsedImplicitly]
         public void Update()
         {
-            if (!isLocalPlayer) return;
-
-            if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
+            if (isLocalPlayer)
             {
-                var inputRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-                if (Physics.Raycast(inputRay, out hit))
+                if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
                 {
-                    CmdChangeColor(hit.point);
+                    var inputRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+                    RaycastHit hit;
+                    if (Physics.Raycast(inputRay, out hit))
+                    {
+                        CmdChangeColor(hit.point);
+                    }
                 }
             }
         }
@@ -41,6 +48,7 @@ namespace Assets.Gamelogic
         [SerializeField]
         private Color[] colors;
         private HexGrid hexGrid;
+        [SerializeField]
         private Color activeColor;
 
         [UsedImplicitly]
@@ -57,11 +65,10 @@ namespace Assets.Gamelogic
             hexGrid.ReColorCell(hitPoint, activeColor);
         }
 
-        [UsedImplicitly][Command]
+        [Command]
         private void CmdSelectColor(int index)
         {
             //TODO: Sanatise Input
-            Debug.Log("Color updated!");
             activeColor = colors[index];
         }
         #endregion
