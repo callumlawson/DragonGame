@@ -10,6 +10,8 @@ namespace Assets.Gamelogic.UI
 
         public ColorSelectUI ColorSelectUI;
         public Text MoneyUI;
+        public InputField ChatInput;
+        public Text ChatHistory;
 
         [UsedImplicitly]
         void Awake()

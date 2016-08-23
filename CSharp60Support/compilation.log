@@ -1,5 +1,5 @@
 ********************************************************************************
-*                      Sunday, August 14, 2016 9:03:43 PM                      *
+*                     Tuesday, August 23, 2016 8:39:09 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.9.2.0
 Platform: Windows
@@ -11,14 +11,15 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-fcb7fc827933cb2408657bf0815f80eb
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-010ca5c89c18a7445a682afeffaba54a
 Exit code: 0
 Elapsed time: 0.33 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (1 line):
+- Compiler errors (2 lines):
 0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
 
 - PDB to MDB conversion --------------------------------------
 
@@ -29,67 +30,7 @@ Elapsed time: 0.08 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Sunday, August 14, 2016 9:04:37 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-086a43a4ec1ee394099a4bc8f52da253
-Exit code: 0
-Elapsed time: 0.32 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.08 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:05:06 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-ba6b1f07bfd368b4a8fd6094f756a374
-Exit code: 0
-Elapsed time: 0.34 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.08 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:05:08 PM                      *
+*                     Tuesday, August 23, 2016 8:39:10 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.9.2.0
 Platform: Windows
@@ -101,7 +42,7 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-d68ae0bc44f635e499326880715c5398
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-e0c60625d02e70c40b4d673972ed2d1f
 Exit code: 0
 Elapsed time: 0.19 sec
 
@@ -118,7 +59,7 @@ Elapsed time: 0.05 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Sunday, August 14, 2016 9:05:27 PM                      *
+*                     Tuesday, August 23, 2016 8:41:13 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.9.2.0
 Platform: Windows
@@ -130,44 +71,15 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-74f28d879986b944f95925e24c02a6c3
-Exit code: 0
-Elapsed time: 0.32 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.08 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:05:30 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-f6d44d340c352ce47a38e195d7769643
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-86528a0dafb935844b5ee0427b8bc47e
 Exit code: 0
 Elapsed time: 0.33 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
 
 - PDB to MDB conversion --------------------------------------
 
@@ -178,7 +90,7 @@ Elapsed time: 0.08 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Sunday, August 14, 2016 9:05:31 PM                      *
+*                     Tuesday, August 23, 2016 8:41:13 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.9.2.0
 Platform: Windows
@@ -190,273 +102,7 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-55d3c93794f9f0a4fa567b3d9ca48fb0
-Exit code: 0
-Elapsed time: 0.20 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:06:50 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-1ec42ee832ea1fb4f96c2fa03a38ba16
-Exit code: 0
-Elapsed time: 0.33 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.09 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:06:51 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-7c9c4b84243952f4f9d2d1e4929f61f3
-Exit code: 0
-Elapsed time: 0.20 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:07:14 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-1d6d31659d663154aa20dc04595363d3
-Exit code: 0
-Elapsed time: 0.34 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.08 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:07:15 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a6cbd403b698e764e95cbd28d2b5c0a1
-Exit code: 0
-Elapsed time: 0.22 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:07:32 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-dd3a38f607f9f1d418c7efa086e3db51
-Exit code: 0
-Elapsed time: 0.34 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.09 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:07:33 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-bcbf2a91542ad11489497e9285879dd2
-Exit code: 0
-Elapsed time: 0.20 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (0 lines):
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp-Editor.dll
-Exit code: 0
-Elapsed time: 0.05 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:08:28 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-2285a7eee7143e644b6668bf544ca989
-Exit code: 0
-Elapsed time: 0.33 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.08 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:08:31 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a8cb6b86049f3a740b0b3563cda815cb
-Exit code: 0
-Elapsed time: 0.34 sec
-
-- Compiler output (0 lines):
-
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
-
-- PDB to MDB conversion --------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
-Arguments: Temp\Assembly-CSharp.dll
-Exit code: 0
-Elapsed time: 0.08 sec
-
-- pdb2mdb.exe output (0 lines):
-********************************************************************************
-*                      Sunday, August 14, 2016 9:08:32 PM                      *
-********************************************************************************
-CSharpCompilerWrapper.exe version: 1.9.2.0
-Platform: Windows
-Target assembly: Assembly-CSharp-Editor.dll
-Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
-Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
-Compiler: Microsoft C# 6.0
-
-- Compilation -----------------------------------------------
-
-Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-b3a68038350ba044ea42c82d3ff45442
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-741ad482e7d08d94fade793fb16cbcc3
 Exit code: 0
 Elapsed time: 0.18 sec
 
@@ -473,7 +119,7 @@ Elapsed time: 0.05 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Sunday, August 14, 2016 9:10:27 PM                      *
+*                     Tuesday, August 23, 2016 8:41:15 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.9.2.0
 Platform: Windows
@@ -485,14 +131,15 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-fa747c78c8a32844fb9a841d3cfcb8de
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-090877174f011a3409d2ce0fc5ef987b
 Exit code: 0
-Elapsed time: 0.33 sec
+Elapsed time: 0.35 sec
 
 - Compiler output (0 lines):
 
-- Compiler errors (1 line):
-0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
 
 - PDB to MDB conversion --------------------------------------
 
@@ -503,7 +150,7 @@ Elapsed time: 0.08 sec
 
 - pdb2mdb.exe output (0 lines):
 ********************************************************************************
-*                      Sunday, August 14, 2016 9:10:28 PM                      *
+*                     Tuesday, August 23, 2016 8:41:36 PM                      *
 ********************************************************************************
 CSharpCompilerWrapper.exe version: 1.9.2.0
 Platform: Windows
@@ -515,9 +162,1147 @@ Compiler: Microsoft C# 6.0
 - Compilation -----------------------------------------------
 
 Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
-Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-b228987b2f7b1614b8f5b8ed3ab76f17
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-298fb2ca54d03ae47925a51cbab3daed
 Exit code: 0
 Elapsed time: 0.19 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:43:38 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-0bd0a68728f099d498176fd094129024
+Exit code: 1
+Elapsed time: 0.25 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (3 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(36,36): error CS0234: The type or namespace name 'main' does not exist in the namespace 'Assets.Gamelogic.Camera' (are you missing an assembly reference?)
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+2: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:44:09 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-8545594c0ab62ef40aff32a08f177467
+Exit code: 0
+Elapsed time: 0.32 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:44:10 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-5491ac66760807541a1e20f02f65ac8c
+Exit code: 0
+Elapsed time: 0.19 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:44:12 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-1e654d8fad71d7948940e949c809e16a
+Exit code: 0
+Elapsed time: 0.34 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:44:41 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-9fc34e54b8b43d1489eb0e03a7847753
+Exit code: 0
+Elapsed time: 0.19 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:45:44 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-1052ed329ec70064b9d51750d6ea90e9
+Exit code: 0
+Elapsed time: 0.33 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:45:45 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-1d1671761d0d58541be8d416358b590e
+Exit code: 0
+Elapsed time: 0.19 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:46:27 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-055e3f5ad0cd4ec47a434c3495f8f8d5
+Exit code: 0
+Elapsed time: 0.33 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:46:28 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-8d183d29256a9d94e8acd5c7438ca91b
+Exit code: 0
+Elapsed time: 0.18 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:50:55 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-3860c65e81b192242b940f2f58d86481
+Exit code: 0
+Elapsed time: 0.33 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:50:56 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-1160cad23ecbe8d488098a567a189095
+Exit code: 0
+Elapsed time: 0.19 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:52:11 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-f0d9115104dfe4649bf3c986dc5adef9
+Exit code: 0
+Elapsed time: 0.33 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:52:12 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-fecc3f25012c2c84b908c1b98abc283e
+Exit code: 0
+Elapsed time: 0.18 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:52:57 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-7d06b7f88b02d4347b43277eba5bcf73
+Exit code: 0
+Elapsed time: 0.32 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:52:58 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-7f6105a3682c5a24897565bcdf4070a0
+Exit code: 0
+Elapsed time: 0.22 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:54:10 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-7c0616928ba5ca644958fccfcb6c8245
+Exit code: 0
+Elapsed time: 0.34 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:54:12 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-58c9eabdca9ba9e4fbbd988405648aef
+Exit code: 0
+Elapsed time: 0.18 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:56:30 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a09cb5a6ed6fed64c8699eacfb037b57
+Exit code: 0
+Elapsed time: 0.32 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.09 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:56:31 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-90bc6466c42923f45acceb5f9d3be84e
+Exit code: 0
+Elapsed time: 0.23 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:56:40 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-d616185db93d78b4f942d82a2bbbe93c
+Exit code: 0
+Elapsed time: 0.32 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:56:43 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-d1815739c4ba7cc42a5aaae0eefd3a60
+Exit code: 0
+Elapsed time: 0.36 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:56:44 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-e785cc62cd153eb4d9eaa108ac037c90
+Exit code: 0
+Elapsed time: 0.21 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:57:09 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a0426efdd88b7d04cb4f072281b600df
+Exit code: 0
+Elapsed time: 0.32 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:57:10 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-cc16ecbe3a35a90409f81180515933bc
+Exit code: 0
+Elapsed time: 0.20 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:57:12 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-584e1c992478085438896360b3a59c03
+Exit code: 0
+Elapsed time: 0.32 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:57:15 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-12394c81dded2cc47a77a7cd4859a001
+Exit code: 0
+Elapsed time: 0.35 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:57:16 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-84f0d31ae0603014892f76d73bb06aaa
+Exit code: 0
+Elapsed time: 0.22 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.07 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:58:19 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-12ed09bd12d91d14a8df595d2deac27e
+Exit code: 0
+Elapsed time: 0.35 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:58:20 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-37707c78379533441a6744eca1d77a8e
+Exit code: 0
+Elapsed time: 0.18 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.07 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:58:53 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-27124f6fb8b8b294a8b161917df16f5d
+Exit code: 0
+Elapsed time: 0.33 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:58:54 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-676b8bce23d2ad741b5359f20e3c7685
+Exit code: 0
+Elapsed time: 0.21 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:59:09 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-bc94630b6318e604fa94d1b1adf4a559
+Exit code: 0
+Elapsed time: 0.31 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:59:12 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-d6906a2b0bf1dce43a519901c47fc8fa
+Exit code: 0
+Elapsed time: 0.36 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 8:59:13 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-866b6962227dd7a4883c9d38d1903ec7
+Exit code: 0
+Elapsed time: 0.21 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (0 lines):
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp-Editor.dll
+Exit code: 0
+Elapsed time: 0.05 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 9:00:23 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-a3255163611d95540ac29c53f4ff2ff7
+Exit code: 0
+Elapsed time: 0.33 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 9:00:24 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-11ccc0bf2c8ca1a4fa3d0924460e1f8f
+Exit code: 0
+Elapsed time: 0.33 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 9:00:27 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-db13a7dabcae87845b71a16ee974c42e
+Exit code: 0
+Elapsed time: 0.35 sec
+
+- Compiler output (0 lines):
+
+- Compiler errors (2 lines):
+0: Assets\Gamelogic\Player\HexGridEditor.cs(49,25): warning CS0649: Field 'HexGridEditor.colors' is never assigned to, and will always have its default value null
+1: Assets\Gamelogic\Chat\ChatManager.cs(18,22): warning CS0649: Field 'ChatManager.chatHistory' is never assigned to, and will always have its default value null
+
+- PDB to MDB conversion --------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\pdb2mdb.exe
+Arguments: Temp\Assembly-CSharp.dll
+Exit code: 0
+Elapsed time: 0.08 sec
+
+- pdb2mdb.exe output (0 lines):
+********************************************************************************
+*                     Tuesday, August 23, 2016 9:00:28 PM                      *
+********************************************************************************
+CSharpCompilerWrapper.exe version: 1.9.2.0
+Platform: Windows
+Target assembly: Assembly-CSharp-Editor.dll
+Project directory: C:\Users\Callum\Documents\UnityProjects\DragonTycoon
+Unity 'Data' or 'Frameworks' directory: C:/Program Files/Unity/Editor/Data
+Compiler: Microsoft C# 6.0
+
+- Compilation -----------------------------------------------
+
+Process: C:\Users\Callum\Documents\UnityProjects\DragonTycoon\CSharp60Support\Roslyn\csc.exe
+Arguments: -nostdlib+ -noconfig -nologo -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/mscorlib.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Core.dll" -r:"C:/Program Files/Unity/Editor/Data\Mono/lib/mono/2.0/System.Xml.dll" @Temp/UnityTempFile-d786ab217998fbb459c63cf54b941045
+Exit code: 0
+Elapsed time: 0.20 sec
 
 - Compiler output (0 lines):
 

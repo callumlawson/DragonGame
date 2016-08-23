@@ -78,8 +78,8 @@ namespace Assets.Gamelogic.Map
             //Persistant data would be loaded here.
             hexGridDimensions = new HexGridDimensions
             {
-                Width = 6,
-                Height = 6
+                Width = 12,
+                Height = 12
             };
         
             for (var z = 0; z < hexGridDimensions.Height; z++)
