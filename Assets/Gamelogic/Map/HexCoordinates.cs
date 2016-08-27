@@ -30,6 +30,11 @@ namespace Assets.Gamelogic.Map
             return X + "\n" + Y + "\n" + Z;
         }
 
+        public static Vector3 ToPosition(HexCoordinates hexCoordinates)
+        {
+            return Vector3.zero;
+        }
+
         public static HexCoordinates FromPosition(Vector3 position)
         {
             var x = position.x / (HexMetrics.InnerRadius * 2f);

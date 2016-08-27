@@ -26,7 +26,10 @@ namespace Assets.Gamelogic.UI
             if (triggered)
             {
                 Debug.Log("Button index: " + index);
-                OnColorIndexUpdated?.Invoke(index);
+                if (OnColorIndexUpdated != null)
+                {
+                    OnColorIndexUpdated(index);
+                }
             }
         }
     }

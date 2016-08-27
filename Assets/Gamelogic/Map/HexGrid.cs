@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using Assets.Gamelogic.Messaging;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -20,10 +21,10 @@ namespace Assets.Gamelogic.Map
         }
 
         [System.Serializable]
-        public class HexCellList : SyncListStruct<HexCellState> { }
+        private class HexCellList : SyncListStruct<HexCellState> { }
 
         [System.Serializable]
-        public struct HexGridDimensions
+        private struct HexGridDimensions
         {
             public int Width;
             public int Height;
@@ -34,10 +35,11 @@ namespace Assets.Gamelogic.Map
         #endregion
 
         #region Clientside
-        public Text CellLabelPrefab;
+        [UsedImplicitly] public Text CellLabelPrefab;
+        [UsedImplicitly] public Canvas GridSpaceCanvas;
+
         private readonly Color defaultColor = Color.white;
         private HexMesh hexMesh;
-        public Canvas GridSpaceCanvas;
 
         [UsedImplicitly]
         public override void OnStartClient()
@@ -67,15 +69,13 @@ namespace Assets.Gamelogic.Map
         #endregion
 
         #region Serverside
-        public static HexGrid Instance;
-
         [UsedImplicitly]
         public override void OnStartServer()
         {
             Debug.Log("Server started!");
-            Instance = this;
+            Messenger.AddListener<Vector3, Color>(MessageType.UpdateHex, ReColorCell);
 
-            //Persistant data would be loaded here.
+            //Load persistant data here.
             hexGridDimensions = new HexGridDimensions
             {
                 Width = 12,
@@ -91,7 +91,7 @@ namespace Assets.Gamelogic.Map
             }
         }
 
-        public void ReColorCell(Vector3 localPosition, Color color)
+        private void ReColorCell(Vector3 localPosition, Color color)
         {
             localPosition = transform.InverseTransformPoint(localPosition);
             var coordinates = HexCoordinates.FromPosition(localPosition);

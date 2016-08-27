@@ -1,4 +1,5 @@
-﻿using JetBrains.Annotations;
+﻿using Assets.Gamelogic.Messaging;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityEngine.UI;
@@ -9,13 +10,11 @@ namespace Assets.Gamelogic.Map
     public class ChatManager : NetworkBehaviour
     {
         #region Persistant State
-        [SerializeField]
-        public SyncListString ChatLog = new SyncListString();
+        [SerializeField] public SyncListString ChatLog = new SyncListString();
         #endregion
 
         #region Clientside
-        [SerializeField]
-        private Text chatHistory;
+        [SerializeField] private Text chatHistory;
        
         [UsedImplicitly]
         public override void OnStartClient()
@@ -35,17 +34,10 @@ namespace Assets.Gamelogic.Map
         #endregion
 
         #region Serverside
-        public static ChatManager Instance;
-
         [UsedImplicitly]
         public override void OnStartServer()
         {
-            Instance = this;
-        }
-
-        public void LogChat(string line)
-        {
-            ChatLog.Add(line);
+            Messenger.AddListener<string>(MessageType.ChatInput, chatline => ChatLog.Add(chatline));
         }
         #endregion
     }

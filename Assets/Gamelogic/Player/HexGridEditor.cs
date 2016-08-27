@@ -1,4 +1,4 @@
-﻿using Assets.Gamelogic.Map;
+﻿using Assets.Gamelogic.Messaging;
 using Assets.Gamelogic.UI;
 using JetBrains.Annotations;
 using UnityEngine;
@@ -45,30 +45,24 @@ namespace Assets.Gamelogic.Player
         #endregion
 
         #region Serverside
-        [SerializeField]
-        private Color[] colors;
-        private HexGrid hexGrid;
-        [SerializeField]
-        private Color activeColor;
+        [SerializeField] private Color[] colors;
+        [SerializeField] private Color activeColor;
 
         [UsedImplicitly]
         public override void OnStartServer()
         {
             activeColor = colors[0];
-            hexGrid = HexGrid.Instance;
         }
 
         [Command]
         private void CmdChangeColor(Vector3 hitPoint)
         {
-            //TODO: Sanatise Input
-            hexGrid.ReColorCell(hitPoint, activeColor);
+            Messenger.Broadcast(MessageType.UpdateHex, hitPoint, activeColor);
         }
 
         [Command]
         private void CmdSelectColor(int index)
         {
-            //TODO: Sanatise Input
             activeColor = colors[index];
         }
         #endregion
