@@ -16,11 +16,12 @@ namespace Assets.Gamelogic.Player
         {
             if (isLocalPlayer)
             {
-                UIManager.Instance.MoneyUI.text = "Money: " + newValue;
+                //UIState.Instance.MoneyUI.text = "Money: " + newValue;
             }
         }
         #endregion
 
+        //Move to server logic - Passive income behaviour.
         #region Serverside
         void Update()
         {

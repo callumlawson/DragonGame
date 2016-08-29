@@ -22,7 +22,7 @@ namespace Assets.Gamelogic.Player
             if (isLocalPlayer)
             {
                 //Cannot use method groups for commands!
-                UIManager.Instance.ColorSelectUI.OnColorIndexUpdated += index => CmdSelectColor(index);
+                //UIState.Instance.ColorSelectUI.OnColorIndexUpdated += index => CmdSelectColor(index);
             }
         }
 
@@ -57,7 +57,7 @@ namespace Assets.Gamelogic.Player
         [Command]
         private void CmdChangeColor(Vector3 hitPoint)
         {
-            Messenger.Broadcast(MessageType.UpdateHex, hitPoint, activeColor);
+            //Messenger.Broadcast(MessageTypes.UpdateHex, hitPoint, activeColor);
         }
 
         [Command]

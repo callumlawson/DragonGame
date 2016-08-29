@@ -44,7 +44,6 @@ namespace Assets.Gamelogic.Map
         [UsedImplicitly]
         public override void OnStartClient()
         {
-            Debug.Log("Client started!");
             hexMesh = GetComponentInChildren<HexMesh>();
             Cells.Callback = (op, i) => RenderCells();
             RenderCells();
@@ -72,8 +71,8 @@ namespace Assets.Gamelogic.Map
         [UsedImplicitly]
         public override void OnStartServer()
         {
-            Debug.Log("Server started!");
-            Messenger.AddListener<Vector3, Color>(MessageType.UpdateHex, ReColorCell);
+            //TODO: Replace with new system
+            //Messenger.AddListener<Vector3, Color>(MessageTypes.UpdateHex, ReColorCell);
 
             //Load persistant data here.
             hexGridDimensions = new HexGridDimensions
