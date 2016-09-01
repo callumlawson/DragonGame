@@ -9,6 +9,9 @@ namespace Assets.Gamelogic.Messaging
 {
     public delegate void MessageCallback<T>(T arg1);
 
+    /// <summary>
+    /// This is a slow and allocation riddled crime. However, it does protoype the API I want to test. 
+    /// </summary>
     public class NewMessenger : NetworkBehaviour
     {
         private static Dictionary<Type, Delegate> listenerTable = new Dictionary<Type, Delegate>();
@@ -18,7 +21,7 @@ namespace Assets.Gamelogic.Messaging
         #region Client and Server
         public static void Broadcast(CustomMsg message)
         {
-            //TODO: Add server to server version.
+            //TODO: Add server to server version. if(isServer) ...stuff
             CustomNetworkManager.ClientsNetworkConnection.Send(MessengerMessageId, new MessengerMessage(message));
         }
         #endregion

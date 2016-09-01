@@ -1,10 +1,17 @@
-﻿using Assets.Gamelogic.Messaging;
+﻿using System;
+using Assets.Gamelogic.Messaging;
 using Assets.Gamelogic.UI;
 using JetBrains.Annotations;
 using UnityEngine.Networking;
 
 namespace Assets.Gamelogic.Player
 {
+    [Serializable]
+    public class ChatInputMessage : CustomMsg
+    {
+        public string ChatLine;
+    }
+
     class Chatter : NetworkBehaviour
     {
         #region Clientside
@@ -14,14 +21,14 @@ namespace Assets.Gamelogic.Player
             if (isLocalPlayer)
             {
                 //Cannot use method groups for commands!
-                //UIState.Instance.ChatInput.onEndEdit.AddListener(HandleChatLine);
+                UIManager.Instance.ChatInput.onEndEdit.AddListener(HandleChatLine);
             }
         }
 
         private void HandleChatLine(string line)
         {
             CmdSendChatLine(line);
-            //UIState.Instance.ChatInput.text = string.Empty;
+            UIManager.Instance.ChatInput.text = string.Empty;
         }
         #endregion
 
@@ -30,6 +37,7 @@ namespace Assets.Gamelogic.Player
         private void CmdSendChatLine(string line)
         {
             //Send network message to server
+            NewMessenger.Broadcast(new ChatInputMessage { ChatLine = string.Format("Player {0}: {1}", connectionToClient.connectionId + 1, line) });
             //Messenger.Broadcast(MessageTypes.ChatInput, string.Format("Player {0}: {1}", connectionToClient.connectionId + 1, line));
         }
         #endregion

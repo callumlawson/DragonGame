@@ -46,6 +46,7 @@ namespace Assets.Gamelogic.Messaging
         //Message handlers that should never be removed, regardless of calling Cleanup
         public static List<string> permanentMessages = new List<string>();
         #endregion
+
         #region Helper methods
         //Marks a certain message as permanent.
         public static void MarkAsPermanent(string eventType)
