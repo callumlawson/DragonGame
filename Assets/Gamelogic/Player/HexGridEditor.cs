@@ -1,5 +1,4 @@
 ﻿using Assets.Gamelogic.Messaging;
-using Assets.Gamelogic.UI;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -13,6 +12,7 @@ namespace Assets.Gamelogic.Player
     class HexGridEditor : NetworkBehaviour
     {
         #region Persistant State
+        private Color CurrentlySelectedColor;
         #endregion
 
         #region Clientside
@@ -37,33 +37,10 @@ namespace Assets.Gamelogic.Player
                     RaycastHit hit;
                     if (Physics.Raycast(inputRay, out hit))
                     {
-                        CmdChangeColor(hit.point);
+                        NewMessenger.Broadcast(new UpdateHex {color = Color.red, hitPoint = hit.point});
                     }
                 }
             }
-        }
-        #endregion
-
-        #region Serverside
-        [SerializeField] private Color[] colors;
-        [SerializeField] private Color activeColor;
-
-        [UsedImplicitly]
-        public override void OnStartServer()
-        {
-            activeColor = colors[0];
-        }
-
-        [Command]
-        private void CmdChangeColor(Vector3 hitPoint)
-        {
-            //Messenger.Broadcast(MessageTypes.UpdateHex, hitPoint, activeColor);
-        }
-
-        [Command]
-        private void CmdSelectColor(int index)
-        {
-            activeColor = colors[index];
         }
         #endregion
     }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine;
 using UnityEngine.Networking;
 
 namespace Assets.Gamelogic.Messaging
@@ -34,6 +35,13 @@ namespace Assets.Gamelogic.Messaging
     public class AnotherTestMessage : CustomMsg
     {
         public string TestString;
+    }
+
+    [Serializable]
+    public class UpdateHex : CustomMsg
+    {
+        public Color color;
+        public Vector3 hitPoint;
     }
     #endregion
 }
