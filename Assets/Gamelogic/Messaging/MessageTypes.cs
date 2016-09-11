@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Assets.Gamelogic.Player;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -15,7 +16,9 @@ namespace Assets.Gamelogic.Messaging
         public static readonly Dictionary<int, Type> MessageIndex = new Dictionary<int, Type>
         {
             { 1, typeof(TestMessage)},
-            { 2, typeof(AnotherTestMessage)}
+            { 2, typeof(AnotherTestMessage)},
+            { 3, typeof(HexUpdateMessage)},
+            { 4, typeof(ChatInputMessage)}
         };
 
         public static int GetTypeId(CustomMsg payload)
@@ -37,11 +40,5 @@ namespace Assets.Gamelogic.Messaging
         public string TestString;
     }
 
-    [Serializable]
-    public class UpdateHex : CustomMsg
-    {
-        public Color color;
-        public Vector3 hitPoint;
-    }
     #endregion
 }

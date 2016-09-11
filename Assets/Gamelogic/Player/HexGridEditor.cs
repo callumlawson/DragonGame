@@ -1,4 +1,5 @@
-﻿using Assets.Gamelogic.Messaging;
+﻿using System;
+using Assets.Gamelogic.Messaging;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -6,18 +7,28 @@ using UnityEngine.Networking;
 
 namespace Assets.Gamelogic.Player
 {
+    [Serializable]
+    public class HexUpdateMessage : CustomMsg
+    {
+        public Color color;
+        public Vector3 hitPoint;
+    }
+
     /// <summary>
-    /// Player authoritative controller to edit the hexgrid. 
+    ///     Player authoritative controller to edit the hexgrid.
     /// </summary>
-    class HexGridEditor : NetworkBehaviour
+    internal class HexGridEditor : NetworkBehaviour
     {
         #region Persistant State
+
         private Color CurrentlySelectedColor;
+
         #endregion
 
         #region Clientside
+
         [UsedImplicitly]
-        public override void OnStartLocalPlayer()
+        public override void OnStartClient()
         {
             if (isLocalPlayer)
             {
@@ -29,19 +40,18 @@ namespace Assets.Gamelogic.Player
         [UsedImplicitly]
         public void Update()
         {
-            if (isLocalPlayer)
+            if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
             {
-                if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
+                var inputRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+                if (Physics.Raycast(inputRay, out hit))
                 {
-                    var inputRay = Camera.main.ScreenPointToRay(Input.mousePosition);
-                    RaycastHit hit;
-                    if (Physics.Raycast(inputRay, out hit))
-                    {
-                        NewMessenger.Broadcast(new UpdateHex {color = Color.red, hitPoint = hit.point});
-                    }
+                    Debug.Log("Sending hex update broadcast.");
+                    Messenger.Broadcast(new HexUpdateMessage {color = Color.red, hitPoint = hit.point});
                 }
             }
         }
+
         #endregion
     }
 }

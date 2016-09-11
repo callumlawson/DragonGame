@@ -12,34 +12,23 @@ namespace Assets.Gamelogic.Player
         public string ChatLine;
     }
 
-    class Chatter : NetworkBehaviour
+    internal class Chatter : NetworkBehaviour
     {
         #region Clientside
+
         [UsedImplicitly]
-        public override void OnStartLocalPlayer()
+        public override void OnStartClient()
         {
-            if (isLocalPlayer)
-            {
-                //Cannot use method groups for commands!
-                UIManager.Instance.ChatInput.onEndEdit.AddListener(HandleChatLine);
-            }
+            //Cannot use method groups for commands!
+            UIManager.Instance.ChatInput.onEndEdit.AddListener(HandleChatLine);
         }
 
         private void HandleChatLine(string line)
         {
-            CmdSendChatLine(line);
+            Messenger.Broadcast(new ChatInputMessage { ChatLine = string.Format(line) });
             UIManager.Instance.ChatInput.text = string.Empty;
         }
-        #endregion
 
-        #region Serverside
-        [Command]
-        private void CmdSendChatLine(string line)
-        {
-            //Send network message to server
-            NewMessenger.Broadcast(new ChatInputMessage { ChatLine = string.Format("Player {0}: {1}", connectionToClient.connectionId + 1, line) });
-            //Messenger.Broadcast(MessageTypes.ChatInput, string.Format("Player {0}: {1}", connectionToClient.connectionId + 1, line));
-        }
         #endregion
     }
 }

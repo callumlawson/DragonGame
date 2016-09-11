@@ -1,4 +1,5 @@
 ﻿using Assets.Gamelogic.Messaging;
+using Assets.Gamelogic.Player;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -37,8 +38,7 @@ namespace Assets.Gamelogic.Map
         [UsedImplicitly]
         public override void OnStartServer()
         {
-            //TODO: FIX ME Trollolololo
-            //Messenger.AddListener<string>(MessageTypes.ChatInput, chatline => ChatLog.Add(chatline));
+            Messenger.AddListener<ChatInputMessage>(chatMsg => ChatLog.Add(chatMsg.ChatLine));
         }
         #endregion
     }

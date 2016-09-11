@@ -5,6 +5,7 @@ using System.Text;
 
 namespace Assets.Gamelogic.AbstractBehaviours
 {
+    //Give each player X money every X seconds.
     class PassiveIncomeBehaviour
     {
     }

@@ -3,3 +3,5 @@ Things to do:
  - Read game enigne architecture. 
  - Test map edit with Luke.
  - Take images for posterity. 
+
+ - Investigate using Flatbuffers for messenger V2

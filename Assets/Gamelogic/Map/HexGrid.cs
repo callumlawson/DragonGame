@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using Assets.Gamelogic.Messaging;
+using Assets.Gamelogic.Player;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -71,8 +72,7 @@ namespace Assets.Gamelogic.Map
         [UsedImplicitly]
         public override void OnStartServer()
         {
-            //TODO: Replace with new system
-            //Messenger.AddListener<Vector3, Color>(MessageTypes.UpdateHex, ReColorCell);
+            Messenger.AddListener<HexUpdateMessage>(OnHexUpdated);
 
             //Load persistant data here.
             hexGridDimensions = new HexGridDimensions
@@ -90,16 +90,16 @@ namespace Assets.Gamelogic.Map
             }
         }
 
-        private void ReColorCell(Vector3 localPosition, Color color)
+        private void OnHexUpdated(HexUpdateMessage msg)
         {
-            localPosition = transform.InverseTransformPoint(localPosition);
+            var localPosition = transform.InverseTransformPoint(msg.hitPoint);
             var coordinates = HexCoordinates.FromPosition(localPosition);
 
             var cell = Cells[IndexFromHexCoordinates(hexGridDimensions, coordinates)];
             var oldColor = cell.Color;
-            if (oldColor != color)
+            if (oldColor != msg.color)
             {
-                cell.Color = color;
+                cell.Color = msg.color;
                 Cells[IndexFromHexCoordinates(hexGridDimensions, coordinates)] = cell;
                 Cells.Dirty(IndexFromHexCoordinates(hexGridDimensions, coordinates));
             }
