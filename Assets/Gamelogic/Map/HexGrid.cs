@@ -72,7 +72,7 @@ namespace Assets.Gamelogic.Map
         [UsedImplicitly]
         public override void OnStartServer()
         {
-            Messenger.AddListener<HexUpdateMessage>(OnHexUpdated);
+            NetworkMessenger.AddListener<HexUpdateMessage>(OnHexUpdated);
 
             //Load persistant data here.
             hexGridDimensions = new HexGridDimensions

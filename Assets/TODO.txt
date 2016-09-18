@@ -5,3 +5,5 @@ Things to do:
  - Take images for posterity. 
 
  - Investigate using Flatbuffers for messenger V2
+ - Investigate using Unity test tools
+ - Use scriptable objects for configuration.

@@ -47,7 +47,7 @@ namespace Assets.Gamelogic.Player
                 if (Physics.Raycast(inputRay, out hit))
                 {
                     Debug.Log("Sending hex update broadcast.");
-                    Messenger.Broadcast(new HexUpdateMessage {color = Color.red, hitPoint = hit.point});
+                    NetworkMessenger.Broadcast(new HexUpdateMessage {color = Color.red, hitPoint = hit.point});
                 }
             }
         }

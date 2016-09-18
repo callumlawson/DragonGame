@@ -38,7 +38,7 @@ namespace Assets.Gamelogic.Map
         [UsedImplicitly]
         public override void OnStartServer()
         {
-            Messenger.AddListener<ChatInputMessage>(chatMsg => ChatLog.Add(chatMsg.ChatLine));
+            NetworkMessenger.AddListener<ChatInputMessage>(chatMsg => ChatLog.Add(chatMsg.ChatLine));
         }
         #endregion
     }

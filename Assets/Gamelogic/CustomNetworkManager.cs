@@ -15,7 +15,7 @@ namespace Assets.Gamelogic
         {
             //Possible issue where this is called twice :( https://issuetracker.unity3d.com/issues/onserverconnect-function-is-called-twice
             Debug.Log(string.Format("A client has connected to the server with id: {0}, host id: {1}", conn.connectionId, conn.hostId));
-            Messenger.AddListener<TestMessage>(Handler);
+            NetworkMessenger.AddListener<TestMessage>(Handler);
 
         }
 
@@ -24,7 +24,7 @@ namespace Assets.Gamelogic
         {
             ClientsNetworkConnection = conn;
             Debug.Log("A server has connected to the client");
-            Messenger.Broadcast(new TestMessage {TestInt = 1337});
+            NetworkMessenger.Broadcast(new TestMessage {TestInt = 1337});
         }
 
         private void Handler(TestMessage message)

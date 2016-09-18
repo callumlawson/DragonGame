@@ -31,7 +31,7 @@ using UnityEngine.Networking;
 
 namespace Assets.Gamelogic.Messaging
 {
-    internal static class OldMessenger
+    internal static class TrustedMessenger
     {
         #region Internal variables
 
@@ -360,7 +360,7 @@ namespace Assets.Gamelogic.Messaging
         //Clean up eventTable every time a new level loads.
         public void OnLevelWasLoaded(int unused)
         {
-            OldMessenger.Cleanup();
+            TrustedMessenger.Cleanup();
         }
     }
 }

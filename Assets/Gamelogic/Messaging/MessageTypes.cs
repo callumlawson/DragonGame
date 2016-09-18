@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Assets.Gamelogic.Player;
-using UnityEngine;
 using UnityEngine.Networking;
 
 namespace Assets.Gamelogic.Messaging

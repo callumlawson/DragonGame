@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using Assets.Gamelogic.Actors;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -12,11 +13,11 @@ namespace Assets.Gamelogic.Messaging
     /// <summary>
     /// This is a slow and allocation riddled crime. However, it does protoype the API I want to test. 
     /// </summary>
-    public class Messenger : NetworkBehaviour
+    public class NetworkMessenger : NetworkBehaviour
     {
         private static Dictionary<Type, Delegate> listenerTable = new Dictionary<Type, Delegate>();
       
-        private readonly MethodInfo deserializeMethod = typeof(Messenger).GetMethod("DeserializeJsonMessage", BindingFlags.NonPublic | BindingFlags.Instance);
+        private readonly MethodInfo deserializeMethod = typeof(NetworkMessenger).GetMethod("DeserializeJsonMessage", BindingFlags.NonPublic | BindingFlags.Instance);
 
         #region Client and Server
         public static void Broadcast(CustomMsg message)
@@ -25,6 +26,11 @@ namespace Assets.Gamelogic.Messaging
             CustomNetworkManager.ClientsNetworkConnection.Send(MessengerMessageId, new MessengerMessage(message));
         }
         #endregion
+
+        public static void SendToActor(ActorId actorId, CustomMsg message)
+        {
+            throw new NotImplementedException();
+        }
 
         public static void AddListener<T>(MessageCallback<T> callback)
         {

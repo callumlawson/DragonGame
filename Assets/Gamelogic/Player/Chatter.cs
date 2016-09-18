@@ -25,7 +25,7 @@ namespace Assets.Gamelogic.Player
 
         private void HandleChatLine(string line)
         {
-            Messenger.Broadcast(new ChatInputMessage { ChatLine = string.Format(line) });
+            NetworkMessenger.Broadcast(new ChatInputMessage { ChatLine = string.Format(line) });
             UIManager.Instance.ChatInput.text = string.Empty;
         }
 
